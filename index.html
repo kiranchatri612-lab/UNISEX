@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNISEX — Haute Coiffure & Luxury Spa | Premier Beauty Salon in India</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Experience bespoke hair couture, rejuvenating skin aesthetics, and world-class bridal styling at ÉCLAT — India's premier luxury salon and spa sanctuary. Book your VIP appointment today.">
+  <meta name="keywords" content="Luxury Salon India, Haute Coiffure, Premier Hair Salon Mumbai Delhi Bengaluru, Luxury Spa, Indian Bridal Makeup, Keratin Hair Treatment, Celebrity Stylists">
+  <meta name="author" content="ÉCLAT Haute Beauty">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="ÉCLAT — Haute Coiffure & Luxury Spa">
+  <meta property="og:description" content="India's most exclusive luxury hair and beauty sanctuary. Where craftsmanship meets pure elegance.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "ÉCLAT Haute Coiffure & Luxury Spa",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+919876543210",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Luxury Boulevard, Bandra West",
+      "addressLocality": "Mumbai",
+      "addressRegion": "MH",
+      "postalCode": "400050",
+      "addressCountry": "IN"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1280"
+    },
+    "priceRange": "₹₹₹₹"
+  }
+  </script>
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ==========================================================
+       Preloader Screen
+       ========================================================== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-brand">S A L O N</div>
+    <div class="preloader-bar-bg">
+      <div class="preloader-bar-fill"></div>
+    </div>
+    <div class="preloader-counter">0%</div>
+  </div>
+
+  <!-- ==========================================================
+       Scroll Progress Bar
+       ========================================================== -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+  </div>
+
+  <!-- ==========================================================
+       Floating Glass Navigation Bar
+       ========================================================== -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo">
+        <span class="logo-main">Unisex salon</span>
+        <span class="logo-tag"> infinity gloss</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">Heritage</a></li>
+        <li><a href="#services" class="nav-link">Couture Menu</a></li>
+        <li><a href="#transformations" class="nav-link">Transformations</a></li>
+        <li><a href="#gallery" class="nav-link">Portfolio</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-gold open-booking-btn">
+          <i class="far fa-calendar-alt"></i> Reserve Experience
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================
+       Mobile Navigation Drawer
+       ========================================================== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Heritage</a></li>
+      <li><a href="#services">Services Menu</a></li>
+      <li><a href="#transformations">Before & After</a></li>
+      <li><a href="#gallery">Portfolio</a></li>
+      <li><a href="#faq">Client FAQ</a></li>
+    </ul>
+    <div style="margin-top: 40px;">
+      <button class="btn btn-gold open-booking-btn">Book Appointment</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================
+       Hero Section
+       ========================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-media">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1920&q=80" alt="ÉCLAT Luxury Salon Interior">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content reveal-on-scroll">
+      <div class="badge-gold float-gentle">
+        <i class="fas fa-crown"></i> INDIA'S PREMIER BEAUTY SANCTUARY
+      </div>
+
+      <h1 class="hero-title">
+        Where Pure Artistry
+        <span class="editorial">Meets Bespoke Luxury</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Indulge in Paris-trained hair couture, clinical skin revival, and royal Indian bridal styling crafted for the most discerning clientele.
+      </p>
+
+      <div class="hero-ctas">
+        <button class="btn btn-gold open-booking-btn pulse-gold">
+          <i class="fas fa-sparkles"></i> Reserve VIP Experience
+        </button>
+        <a href="#services" class="btn btn-outline">
+          Explore Catalogue <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="hero-badges">
+        <div class="hero-badge-item">
+          <i class="fas fa-star"></i>
+          <div class="hero-badge-text">
+            <strong>4.9 ★ Rating</strong>
+            Over 1,200+ 5-Star Google Reviews
+          </div>
+        </div>
+        <div class="hero-badge-item">
+          <i class="fas fa-award"></i>
+          <div class="hero-badge-text">
+            <strong>38 International Awards</strong>
+            Vogue & Elle Beauty Laureates
+          </div>
+        </div>
+        <div class="hero-badge-item">
+          <i class="fas fa-shield-alt"></i>
+          <div class="hero-badge-text">
+            <strong>Private Suites</strong>
+            Discreet Celebrity VIP Chambers
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       About / Heritage Section
+       ========================================================== -->
+  <section class="section" id="about">
+    <div class="ambient-glow" style="top: 20%; left: -100px;"></div>
+    <div class="container">
+      <div class="about-grid">
+        
+        <div class="about-images-wrapper reveal-on-scroll">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="ÉCLAT Salon Heritage" class="about-img-main">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="ÉCLAT Stylist at Work" class="about-img-secondary">
+          
+          <div class="about-experience-badge glass-panel-gold">
+            <div class="num">15+</div>
+            <div class="lbl">Years of Excellence</div>
+          </div>
+        </div>
+
+        <div class="about-content reveal-on-scroll reveal-delay-2">
+          <span class="section-subtitle">OUR HERITAGE & PHILOSOPHY</span>
+          <h2 class="section-title">Redefining High Fashion & Beauty Standards in India</h2>
+          <p>
+            Founded in 2010, ÉCLAT was conceived as a sanctuary for those who view beauty not merely as a routine, but as an intimate ritual of self-realization and refinement.
+          </p>
+          <p>
+            Our master artisans combine traditional French hair cutting precision with clean, organic botanical elixirs to deliver transformative results tailored specifically to Indian hair textures and skin tones.
+          </p>
+
+          <ul class="features-list">
+            <li><i class="fas fa-check-circle"></i> Master Stylists Trained in Paris & London</li>
+            <li><i class="fas fa-check-circle"></i> 100% Organic & Clean Botanical Formulations</li>
+            <li><i class="fas fa-check-circle"></i> Sound-Proofed Private Luxury VIP Suites</li>
+            <li><i class="fas fa-check-circle"></i> Bespoke Bridal Lounge with Personal Stylists</li>
+          </ul>
+
+          <div style="margin-top: 36px;">
+            <button class="btn btn-gold open-booking-btn">Consult Our Master Artist</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Animated Statistic Counters -->
+      <div class="stats-grid glass-panel reveal-on-scroll">
+        <div class="stat-item">
+          <div class="stat-num" data-target="15" data-suffix="+">0</div>
+          <div class="stat-label">Years of Legacy</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="50" data-suffix="K+">0</div>
+          <div class="stat-label">Discerning Patrons</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="45" data-suffix="+">0</div>
+          <div class="stat-label">Master Stylists</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num" data-target="38" data-suffix="">0</div>
+          <div class="stat-label">Global Beauty Awards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Interactive Services Menu & Pricing Matrix
+       ========================================================== -->
+  <section class="section" id="services">
+    <div class="ambient-glow" style="bottom: 10%; right: -100px;"></div>
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">THE COUTURE CATALOGUE</span>
+        <h2 class="section-title">Bespoke Treatments & Services</h2>
+        <p class="section-description">
+          Each ritual is meticulously customized following an in-depth trichological or dermatological analysis by our senior specialists.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="services-tabs reveal-on-scroll">
+        <button class="tab-btn service-tab-btn active" data-tab="all">All Services</button>
+        <button class="tab-btn service-tab-btn" data-tab="hair">Hair Couture</button>
+        <button class="tab-btn service-tab-btn" data-tab="skin">Skin Aesthetics</button>
+        <button class="tab-btn service-tab-btn" data-tab="bridal">Bridal Lounge</button>
+        <button class="tab-btn service-tab-btn" data-tab="spa">Wellness Spa</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+        
+        <!-- Card 1: Balayage Couture -->
+        <div class="service-card reveal-on-scroll" data-category="hair">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="Balayage Hair Styling">
+            <span class="service-badge">SIGNATURE RITUAL</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Parisian French Balayage</h3>
+            <p class="service-desc">Hand-painted dimensional highlights infused with Plex bond-builder to protect and enhance natural hair movement.</p>
+            <div class="service-meta">
+              <div class="service-price">₹12,500</div>
+              <div class="service-duration"><i class="far fa-clock"></i> 180 Mins</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="Parisian French Balayage">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Royal Hydrafacial -->
+        <div class="service-card reveal-on-scroll reveal-delay-1" data-category="skin">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="Royal Hydrafacial Treatment">
+            <span class="service-badge">CLINICAL GLOW</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">24K Gold Royal Hydrafacial</h3>
+            <p class="service-desc">6-step medical grade dermabrasion, lymphatic drainage, and 24K gold foil infusion for luminous, glass skin radiance.</p>
+            <div class="service-meta">
+              <div class="service-price">₹14,000</div>
+              <div class="service-duration"><i class="far fa-clock"></i> 90 Mins</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="24K Gold Royal Hydrafacial">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3: Indian Bridal Trousseau -->
+        <div class="service-card reveal-on-scroll reveal-delay-2" data-category="bridal">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=600&q=80" alt="Indian Bridal Makeup">
+            <span class="service-badge">ROYAL BRIDAL</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Maharani Bridal Trousseau</h3>
+            <p class="service-desc">Complete HD/Airbrush bridal makeup, luxury hair sculpture, saree draping, and private suite preparation with personal assistant.</p>
+            <div class="service-meta">
+              <div class="service-price">₹45,000</div>
+              <div class="service-duration"><i class="far fa-clock"></i> Full Day</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="Maharani Bridal Trousseau">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 4: Organic Keratin Smoothing -->
+        <div class="service-card reveal-on-scroll" data-category="hair">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80" alt="Organic Keratin Treatment">
+            <span class="service-badge">FORMALDEHYDE FREE</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Organic Amazonian Botoplex</h3>
+            <p class="service-desc">Zero-chemical hair restructuring treatment delivering 100% frizz control and mirror-like silkiness for up to 6 months.</p>
+            <div class="service-meta">
+              <div class="service-price">₹16,500</div>
+              <div class="service-duration"><i class="far fa-clock"></i> 150 Mins</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="Organic Amazonian Botoplex">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 5: Ayurvedic Aromatherapy Spa -->
+        <div class="service-card reveal-on-scroll reveal-delay-1" data-category="spa">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" alt="Ayurvedic Aromatherapy Spa">
+            <span class="service-badge">DEEP WELLNESS</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Santal & Jasmine Ritual</h3>
+            <p class="service-desc">Full body holistic massage with warm Kashmiri saffron and sandalwood oils followed by hot basalt stone therapy.</p>
+            <div class="service-meta">
+              <div class="service-price">₹9,500</div>
+              <div class="service-duration"><i class="far fa-clock"></i> 120 Mins</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="Santal & Jasmine Ritual">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 6: Stem Cell Hair Revival -->
+        <div class="service-card reveal-on-scroll reveal-delay-2" data-category="hair">
+          <div class="service-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=600&q=80" alt="Hair Loss Stem Cell Treatment">
+            <span class="service-badge">TRICHOLOGY CLINIC</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">Stem Cell Scalp Therapy</h3>
+            <p class="service-desc">Swiss apple stem cell micro-infusion to reactivate dormant hair follicles and stimulate dense, youthful growth.</p>
+            <div class="service-meta">
+              <div class="service-price">₹18,000</div>
+              <div class="service-duration"><i class="far fa-clock"></i> 75 Mins</div>
+            </div>
+            <button class="btn btn-outline service-book-btn open-booking-btn" data-service="Stem Cell Scalp Therapy">
+              Reserve Service
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Interactive Before & After Showcase Section
+       ========================================================== -->
+  <section class="section" id="transformations">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">THE ART OF TRANSFORMATION</span>
+        <h2 class="section-title">Before & After Radiance</h2>
+        <p class="section-description">
+          Drag or touch the slider below to witness the immaculate difference our master hair and makeup artists achieve.
+        </p>
+      </div>
+
+      <div class="comparison-container reveal-on-scroll">
+        <!-- After Image (Background) -->
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80" alt="After Styling Transformation" class="comparison-img comparison-before">
+        
+        <!-- Before Image (Clipped Overlay) -->
+        <div class="comparison-after-wrapper">
+          <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1200&q=80" alt="Before Hair Condition" class="comparison-img">
+        </div>
+
+        <div class="comparison-handle">
+          <div class="handle-button">
+            <i class="fas fa-arrows-alt-h"></i>
+          </div>
+        </div>
+
+        <span class="comparison-tag tag-before">BEFORE TREATMENT</span>
+        <span class="comparison-tag tag-after">AFTER ÉCLAT COIFFURE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Portfolio Luxury Gallery
+       ========================================================== -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">CURATED PORTFOLIO</span>
+        <h2 class="section-title">The ÉCLAT Gallery</h2>
+        <p class="section-description">
+          A glimpse inside our sanctuaries, high fashion editorial shoots, and royal bridal unveilings.
+        </p>
+      </div>
+
+      <div class="services-tabs reveal-on-scroll">
+        <button class="tab-btn gallery-filter-btn active" data-filter="all">All Showcase</button>
+        <button class="tab-btn gallery-filter-btn" data-filter="hair">Hair Couture</button>
+        <button class="tab-btn gallery-filter-btn" data-filter="bridal">Bridal Glamour</button>
+        <button class="tab-btn gallery-filter-btn" data-filter="interior">Salon Interior</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal-on-scroll" data-category="hair">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Parisian Balayage Hair">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">HAIR ARTISTRY</span>
+            <h4 class="gallery-title">Golden Caramel Balayage</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll reveal-delay-1" data-category="bridal">
+          <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80" alt="Royal Indian Bride">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">BRIDAL LOUNGE</span>
+            <h4 class="gallery-title">Royal Rajasthani Bride</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll reveal-delay-2" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80" alt="ÉCLAT Salon Interior">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">ARCHITECTURE</span>
+            <h4 class="gallery-title">Onyx Marble Styling Floor</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll" data-category="hair">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Silk Hair Blowout">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">HAIR ARTISTRY</span>
+            <h4 class="gallery-title">Silk Press & Sculpting</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll reveal-delay-1" data-category="interior">
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Aromatherapy Spa Suite">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">WELLNESS SANCTUARY</span>
+            <h4 class="gallery-title">Private Hydrotherapy Suite</h4>
+          </div>
+        </div>
+
+        <div class="gallery-item reveal-on-scroll reveal-delay-2" data-category="bridal">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Editorial Skin Glow">
+          <div class="gallery-overlay">
+            <span class="gallery-cat">SKIN AESTHETICS</span>
+            <h4 class="gallery-title">Luminous Glass Skin Glow</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Testimonials & Google Reviews Slider
+       ========================================================== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">PATRON TESTIMONIALS</span>
+        <h2 class="section-title">Words from Our Royalty</h2>
+        <p class="section-description">
+          Read verified experiences from India's film personalities, fashion icons, and beloved brides.
+        </p>
+      </div>
+
+      
+        <!-- Arrows -->
+        <div class="slider-controls">
+          <button class="slider-arrow" id="prevReviewBtn" aria-label="Previous Testimonial"><i class="fas fa-chevron-left"></i></button>
+          <button class="slider-arrow" id="nextReviewBtn" aria-label="Next Testimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       FAQ Accordion Section
+       ========================================================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-subtitle">CLIENT INFORMATION</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-description">
+          Everything you need to know prior to your luxury visit at ÉCLAT.
+        </p>
+      </div>
+
+      <div class="faq-grid reveal-on-scroll">
+        
+        <div class="faq-item">
+          <div class="faq-header">
+            How far in advance should I book my bridal consultation?
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </div>
+          <div class="faq-body">
+            <p>We recommend reserving your bridal date 3 to 6 months prior to your wedding day. This allows ample time for hair trials, customized skin preparation regimens, and securing your preferred master artist and private suite.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            Are your hair coloring products safe for sensitive scalps?
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </div>
+          <div class="faq-body">
+            <p>Yes. All ÉCLAT hair couture products are 100% ammonia-free, formaldehyde-free, and enriched with organic plant oils. We conduct a mandatory patch test 24 hours prior to any chemical transformation.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            Do you offer private VIP rooms for high-profile clients?
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </div>
+          <div class="faq-body">
+            <p>Our salons feature discreet soundproofed VIP chambers with dedicated private entrances, valet parking, and personal concierge staff for total privacy.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            What is your appointment cancellation policy?
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </div>
+          <div class="faq-body">
+            <p>To respect our master artists' schedules, we request at least 24 hours notice for cancellations or rescheduling. Bridal deposits are fully refundable up to 14 days before the event date.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Instagram Feed Showcase
+       ========================================================== -->
+  <section class="section" style="padding-bottom: 0;">
+    <div class="container text-center" style="margin-bottom: 40px;">
+      <span class="section-subtitle">FOLLOW OUR JOURNEY</span>
+      <h2 class="section-title">@eclat.hautebeauty</h2>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0;">
+      <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 1" style="height: 220px; object-fit: cover; width: 100%;">
+      <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 2" style="height: 220px; object-fit: cover; width: 100%;">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 3" style="height: 220px; object-fit: cover; width: 100%;">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 4" style="height: 220px; object-fit: cover; width: 100%;">
+      <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 5" style="height: 220px; object-fit: cover; width: 100%;">
+      <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=400&q=80" alt="Instagram Post 6" style="height: 220px; object-fit: cover; width: 100%;">
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       Interactive Multi-Step Booking Drawer
+       ========================================================== -->
+  <div class="booking-drawer" id="bookingDrawer">
+    <div class="drawer-panel">
+      
+      <div class="drawer-header">
+        <h3 class="drawer-title">Reserve Your Experience</h3>
+        <button class="drawer-close" id="closeBookingBtn">&times;</button>
+      </div>
+
+      <div class="drawer-steps">
+        <div class="step-indicator active"></div>
+        <div class="step-indicator"></div>
+        <div class="step-indicator"></div>
+        <div class="step-indicator"></div>
+      </div>
+
+      <form id="bookingForm" style="display: flex; flex-direction: column; height: 100%;">
+        <div class="drawer-content">
+          
+          <!-- Step 1: Select Services -->
+          <div class="booking-step active">
+            <h4 class="step-title">1. Select Preferred Rituals</h4>
+            <div class="service-select-list">
+              <div class="service-select-item" data-name="Parisian French Balayage" data-price="12500">
+                <div>
+                  <strong>Parisian French Balayage</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">180 Mins • Hair Couture</div>
+                </div>
+                <span class="text-gold">₹12,500</span>
+              </div>
+
+              <div class="service-select-item" data-name="24K Gold Royal Hydrafacial" data-price="14000">
+                <div>
+                  <strong>24K Gold Royal Hydrafacial</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">90 Mins • Clinical Glow</div>
+                </div>
+                <span class="text-gold">₹14,000</span>
+              </div>
+
+              <div class="service-select-item" data-name="Maharani Bridal Trousseau" data-price="45000">
+                <div>
+                  <strong>Maharani Bridal Trousseau</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Full Day • Bridal Lounge</div>
+                </div>
+                <span class="text-gold">₹45,000</span>
+              </div>
+
+              <div class="service-select-item" data-name="Organic Amazonian Botoplex" data-price="16500">
+                <div>
+                  <strong>Organic Amazonian Botoplex</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">150 Mins • Smooth Ritual</div>
+                </div>
+                <span class="text-gold">₹16,500</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 2: Date & Time -->
+          <div class="booking-step">
+            <h4 class="step-title">2. Select Date & Time Slot</h4>
+            <div class="form-group">
+              <label class="form-label">Preferred Appointment Date</label>
+              <input type="date" class="form-input" id="appointmentDate" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Preferred Time Slot</label>
+              <select class="form-input" id="appointmentTime" required>
+                <option value="">Choose Time</option>
+                <option value="10:00 AM">10:00 AM — Morning Sanctuary</option>
+                <option value="01:00 PM">01:00 PM — Afternoon Session</option>
+                <option value="04:00 PM">04:00 PM — Sunset Experience</option>
+                <option value="07:00 PM">07:00 PM — Evening VIP Slot</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Step 3: Master Artist Choice -->
+          <div class="booking-step">
+            <h4 class="step-title">3. Specialist Preference</h4>
+            <div class="form-group">
+              <label class="form-label">Select Stylist / Aesthetician</label>
+              <select class="form-input" id="masterStylist">
+                <option value="First Available Senior Artist">First Available Senior Artist</option>
+                <option value="Jean-Luc (Paris Master Director)">Jean-Luc (Paris Master Director)</option>
+                <option value="Priya Sharma (Celebrity Skin Specialist)">Priya Sharma (Celebrity Skin Specialist)</option>
+                <option value="Rohan Roy (Senior Bridal Stylist)">Rohan Roy (Senior Bridal Stylist)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Step 4: Contact & Confirm -->
+          <div class="booking-step">
+            <h4 class="step-title">4. Guest Information</h4>
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" id="clientName" placeholder="e.g. Princess Radhika" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">WhatsApp Contact Number</label>
+              <input type="tel" class="form-input" id="clientPhone" placeholder="+91 98765 43210" required>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="drawer-footer">
+          <div>
+            <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted);">Estimated Total</div>
+            <div style="font-family: var(--font-heading); font-size: 1.4rem; color: var(--gold-primary);" id="bookingTotalPrice">₹0</div>
+          </div>
+          
+          <div style="display: flex; gap: 10px;">
+            <button type="button" class="btn btn-outline" id="bookingPrevBtn" style="display: none;">Back</button>
+            <button type="button" class="btn btn-gold" id="bookingNextBtn">Next Step</button>
+            <button type="submit" class="btn btn-gold" id="bookingSubmitBtn" style="display: none;">Confirm Booking</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- ==========================================================
+       Fullscreen Lightbox Modal
+       ========================================================== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <div class="lightbox-content">
+      <img src="" id="lightboxImg" alt="Showcase Preview">
+    </div>
+  </div>
+
+  <!-- ==========================================================
+       Floating Quick Action Buttons & Back to Top
+       ========================================================== -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919876543210?text=Hello%20%C3%89CLAT,%20I%20would%20like%20to%20inquire%20about%20a%20luxury%20appointment." target="_blank" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919876543210" class="float-btn float-call" aria-label="Call ÉCLAT Concierge">
+      <i class="fas fa-phone"></i>
+    </a>
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to Top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- ==========================================================
+       Footer Section
+       ========================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo">
+            <span class="logo-main">UNISEX</span>
+            <span class="logo-tag">HAUTE BEAUTY SANCTUARY</span>
+          </a>
+          <p>
+            India's most acclaimed high-fashion hair couture studio, clinical skin aesthetic clinic, and royal bridal sanctuary.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Heritage</a></li>
+            <li><a href="#services">Services Menu</a></li>
+            <li><a href="#transformations">Before & After</a></li>
+            <li><a href="#gallery">Portfolio Gallery</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Sanctuaries</h4>
+          <ul class="footer-links">
+            <li><a href="#">Mumbai — Bandra West</a></li>
+            <li><a href="#">New Delhi — Golf Links</a></li>
+            <li><a href="#">Bengaluru — Indiranagar</a></li>
+            <li><a href="#">Hyderabad — Jubilee Hills</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Concierge & VIP</h4>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 14px;">
+            Concierge Desk: +91 98765 43210<br>
+            VIP Inquiries: vip@eclatbeauty.in
+          </p>
+          <div style="display: flex; gap: 14px; color: var(--gold-primary); font-size: 1.2rem;">
+            <a href="#" style="color: inherit;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: inherit;"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" style="color: inherit;"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" style="color: inherit;"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 UNISEX Haute Beauty Sanctuary India. All Rights Reserved.</div>
+        <div>Crafted with Pure Craftsmanship & Elegance</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/booking.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/comparison.js"></script>
+
+</body>
+</html>
